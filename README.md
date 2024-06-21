@@ -1,4 +1,3 @@
-
 export MY_ZONE="Zone"
 gcloud container clusters create webfrontend --zone $MY_ZONE --num-nodes 2
 kubectl version
